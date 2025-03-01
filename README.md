@@ -23,33 +23,28 @@ And then precede all functions in this class with ptr, for example:
 ptr.begin();
 
 ### begin
-Sets up the Panther Logger hardware
-Inputs: None
-Outputs: None
-Usage:  ptr.begin();
+Sets up the Panther Logger hardware  
+Inputs: None  
+Outputs: None  
+Usage:  ptr.begin();  
 
-## setupMCP
-Sets up the GPIO expander
-Inputs: None
-Outputs: None
-Usage: ptr.setupMCP
+## setupMCP  
+Sets up the GPIO expander  
+Inputs: None  
+Outputs: None  
+Usage: ptr.setupMCP    
 
 ## mcpMode
-Sets the pin mode of one of the GPIO expander pins
-Inputs:
-Pin number
-Function either INPUT or OUTPUT
-Outputs: None
-Usage: Mode(3,OUTPUT);
+Sets the pin mode of one of the GPIO expander pins    
+Inputs: Pin number, mode either INPUT or OUTPUT  
+Outputs: None  
+Usage: ptr.mcpMode(3,OUTPUT);  
 
 ## mcpWrite
-Writes the polarity of one of the GPIO expander pins
-Inputs:
-Pin number
-Polarity either HIGH or LOW
-Outputs: None
-Example:
-Write(3,HIGH);
+Writes the polarity of one of the GPIO expander pins  
+Inputs: Pin number, Polarity either HIGH or LOW  
+Outputs: None  
+Example: ptr.mcpWrite(3,HIGH);  
 
 ## LED
 Turns on (HIGH) or off (LOW) an LED on the Panther Logger board
