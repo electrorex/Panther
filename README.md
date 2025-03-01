@@ -2,7 +2,8 @@
 
 # Panther Library
 
-![PantherLogger2_Github](https://github.com/user-attachments/assets/2d238cc9-6f47-4c08-a872-55b29660fa97)
+![PantherLogger2_GithubB](https://github.com/user-attachments/assets/7e42676b-61d1-4e02-9801-8646f1540408)
+
 
 
 This library is used to program the Electrorex Panther Logger 
