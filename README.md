@@ -12,4 +12,4 @@ This library is used to program the Electrorex Panther Logger
 
 [Electrorex Panther Logger](https://electrorex.io/shop/ols/products/electrorex-iot-loggerone)
 
-See documentation in the Electrorex Learning Center 
+See documentation in the [Electrorex Learning Center](https://electrorex.io/pantherlogger-tutorials) 
