@@ -1,4 +1,5 @@
-![ElectroRexLogo_Github](https://github.com/user-attachments/assets/1e90ab43-f840-40a9-8af7-10e5c5ff8517)
+
+![ElectroRexLogo_Github](https://github.com/user-attachments/assets/c46993d4-a2e9-4d48-a9d2-b3c85fddbec2)
 
 # Panther Library
 
