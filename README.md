@@ -2,7 +2,8 @@
 
 # Panther Library
 
-![PantherLogger2_GithubB](https://github.com/user-attachments/assets/7e42676b-61d1-4e02-9801-8646f1540408)
+
+![PantherLogger2_GithubB](https://github.com/user-attachments/assets/c530cc08-f9d0-4673-95eb-7aa9acbb40bd)
 
 
 
