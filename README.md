@@ -2,4 +2,10 @@
 
 # Panther Library
 
-![PantherLogger2_Github](https://github.com/user-attachments/assets/f079ef9d-bb08-464a-8ad8-fc87ffc60414)
+![PantherLogger2_Github](https://github.com/user-attachments/assets/47eea1aa-f95c-482a-9c82-38b85bb03a6c)
+
+This library is used to program the Electrorex Panther Logger 
+
+[Electrorex Panther Logger](https://electrorex.io/shop/ols/products/electrorex-iot-loggerone)
+
+See documentation in the Electrorex Learning Center 
