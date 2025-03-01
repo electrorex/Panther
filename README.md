@@ -22,7 +22,7 @@ And then precede all functions in this class with ptr, for example:
 	
 ptr.begin();
 
-## begin
+### begin
 Sets up the Panther Logger hardware
 Inputs: None
 Outputs: None
