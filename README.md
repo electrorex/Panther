@@ -32,7 +32,7 @@ Usage:  ptr.begin();
 Sets up the GPIO expander  
 Inputs: None  
 Outputs: None  
-Usage: ptr.setupMCP    
+Usage: ptr.setupMCP();      
 
 ## mcpMode
 Sets the pin mode of one of the GPIO expander pins    
@@ -47,59 +47,59 @@ Outputs: None
 Example: ptr.mcpWrite(3,HIGH);  
 
 ## LED
-Turns on (HIGH) or off (LOW) an LED on the Panther Logger board
-Inputs: LED number as integer, Polarity (either HIGH or LOW)
-Outputs: None
-Example: ptr.LED(1, HIGH);
+Turns on (HIGH) or off (LOW) an LED on the Panther Logger board  
+Inputs: LED number as integer, Polarity (either HIGH or LOW)  
+Outputs: None  
+Example: ptr.LED(1, HIGH);  
 
-LEDs
-Turns on (HIGH) or off (LOW) all LEDs simultaneously
-Inputs: Polarity, either HIGH or LOW
-Outputs: None
-Example: LEDs(HIGH);
+## LEDs
+Turns on (HIGH) or off (LOW) all LEDs simultaneously  
+Inputs: Polarity, either HIGH or LOW  
+Outputs: None  
+Example: LEDs(HIGH);  
 
 ## set3v3
-Turn on or off the switched 3.3V power rail
-Inputs: Polarity, either HIGH or LOW
-Outputs: None
-Usage: ptr.set3v3(HIGH); //Turns on the switched 3.3V rail
+Turn on or off the switched 3.3V power rail. 
+Inputs: Polarity, either HIGH or LOW  
+Outputs: None  
+Usage: ptr.set3v3(HIGH); //Turns on the switched 3.3V rail  
 
-## set12v
-Turn on (HIGH) or off (LOW) the switched 12V power rail
-Inputs: Polarity, either HIGH or LOW
-Outputs: None
-Usage: ptr.set12v(HIGH);
+## set12v  
+Turn on (HIGH) or off (LOW) the switched 12V power rail  
+Inputs: Polarity, either HIGH or LOW  
+Outputs: None  
+Usage: ptr.set12v(HIGH);  
 
 ## pTemp
-Read the temperature sensor on the Panther Logger board
-Inputs: None
-Outputs: float value
-Usage: ptr.pTemp();
+Read the temperature sensor on the Panther Logger board  
+Inputs: None  
+Outputs: float value  
+Usage: ptr.pTemp();  
 
 ## pHumid
-Read the humidity sensor on the Panther Logger board
-Input: None
-Outputs: float value
-Usage: ptr.pHumid();
+Read the humidity sensor on the Panther Logger board  
+Input: None  
+Outputs: float value  
+Usage: ptr.pHumid();  
 
 ## Volts
-Read voltage on an analog pin
-Inputs: analog pin to read 
-Outputs: float value
-Usage: ptr.Volts(A0);
+Read voltage on an analog pin. 
+Inputs: analog pin to read   
+Outputs: float value  
+Usage: ptr.Volts(A0);  
 
 ## Bat
-Read battery voltage
-Inputs: None
-Outputs: float value
-Usage: ptr.bat();
+Read battery voltage  
+Inputs: None  
+Outputs: float value  
+Usage: ptr.bat();  
 
 ## selectSerial2
-Select the serial port to use on the UART multiplexer on the Panther Logger 
-Run this prior to attempting communications on one of the RS232 ports, the open UART port or with the LoRa modem
-Port 0 = LoRa, Port 1 = RS232-1, Port 2 = RS232-2, Port 3 = Open UART
-Inputs: port number
-Outputs: none
-Usage: ptr.selectSerial2(1);
+Select the serial port to use on the UART multiplexer on the Panther Logger   
+Run this prior to attempting communications on one of the RS232 ports, the open UART port or with the LoRa modem  
+Port 0 = LoRa, Port 1 = RS232-1, Port 2 = RS232-2, Port 3 = Open UART  
+Inputs: port number  
+Outputs: none  
+Usage: ptr.selectSerial2(1);  
 
 
