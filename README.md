@@ -59,8 +59,8 @@ Outputs: None
 Example: LEDs(HIGH);  
 
 ## set3v3
-Turn on or off the switched 3.3V power rail. 
-Inputs: Polarity, either HIGH or LOW  
+Turn on or off the switched 3.3V power rail  
+Inputs: Polarity, either HIGH or LOW    
 Outputs: None  
 Usage: ptr.set3v3(HIGH); //Turns on the switched 3.3V rail  
 
@@ -83,7 +83,7 @@ Outputs: float value
 Usage: ptr.pHumid();  
 
 ## Volts
-Read voltage on an analog pin. 
+Read voltage on an analog pin   
 Inputs: analog pin to read   
 Outputs: float value  
 Usage: ptr.Volts(A0);  
