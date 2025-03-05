@@ -149,47 +149,49 @@ float Panther::bat() {
 //Port 2 = RS232-2
 //Port 3 = Open UART
 void Panther::selectSerial2(int port){
-  if(port = 0){ //LoRa
-      mcpMode(11,OUTPUT); 
-      mcpWrite(11,LOW); //E
-      delay(100);
-      mcpMode(12,OUTPUT); 
-      mcpWrite(12,LOW); //S0
-      delay(100);
-      mcpMode(13,OUTPUT);
-      mcpWrite(13,LOW); //S1
-      delay(100);
-  } else if(port = 1){ //RS232-1
-      mcpMode(11,OUTPUT); 
-      mcpWrite(11,LOW); //E
-      delay(100);
-      mcpMode(12,OUTPUT); 
-      mcpWrite(12,HIGH); //S0
-      delay(100);
-      mcpMode(13,OUTPUT);
-      mcpWrite(13,LOW); //S1
-      delay(100);
-  } else if(port = 2){ //RS232-2
-      mcpMode(11,OUTPUT); 
-      mcpWrite(11,LOW); //E
-      delay(100);
-      mcpMode(12,OUTPUT); 
-      mcpWrite(12,LOW); //S0
-      delay(100);
-      mcpMode(13,OUTPUT);
-      mcpWrite(13,HIGH); //S1
-      delay(100);
-  } else if(port = 3){ //Open UART
-      mcpMode(11,OUTPUT); 
-      mcpWrite(11,LOW); //E
-      delay(100);
-      mcpMode(12,OUTPUT); 
-      mcpWrite(12,HIGH); //S0
-      delay(100);
-      mcpMode(13,OUTPUT);
-      mcpWrite(13,HIGH); //S1
-      delay(100);
-  } else{
-      Serial.println("Invalid port");
+  switch (port) {
+    case 0:
+    mcpMode(11,OUTPUT); 
+    mcpWrite(11,LOW); //E
+    delay(100);
+    mcpMode(12,OUTPUT); 
+    mcpWrite(12,LOW); //S0
+    delay(100);
+    mcpMode(13,OUTPUT);
+    mcpWrite(13,LOW); //S1
+    delay(100);
+      break;
+    case 1:
+    mcpMode(11,OUTPUT); 
+    mcpWrite(11,LOW); //E
+    delay(100);
+    mcpMode(12,OUTPUT); 
+    mcpWrite(12,HIGH); //S0
+    delay(100);
+    mcpMode(13,OUTPUT);
+    mcpWrite(13,LOW); //S1
+    delay(100);
+      break;
+    case 2:
+    mcpMode(11,OUTPUT); 
+    mcpWrite(11,LOW); //E
+    delay(100);
+    mcpMode(12,OUTPUT); 
+    mcpWrite(12,LOW); //S0
+    delay(100);
+    mcpMode(13,OUTPUT);
+    mcpWrite(13,HIGH); //S1
+    delay(100);
+      break;
+    case 3:
+    mcpMode(11,OUTPUT); 
+    mcpWrite(11,LOW); //E
+    delay(100);
+    mcpMode(12,OUTPUT); 
+    mcpWrite(12,HIGH); //S0
+    delay(100);
+    mcpMode(13,OUTPUT);
+    mcpWrite(13,HIGH); //S1
+    delay(100);
   }
 }
