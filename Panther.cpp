@@ -6,7 +6,6 @@ Author: Todd R. Miller (electrorex.io)
 
 #include "Arduino.h"
 #include <Panther.h>
-#include <Adafruit_SleepyDog.h>
 
 TwoWire Wire2(&sercom2,4,3);
 
