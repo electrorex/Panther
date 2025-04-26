@@ -8,24 +8,18 @@ Author: Todd R. Miller (electrorex.io)
 #define Panther_h
 
 #include "Arduino.h"
+#include "ClosedCube_HDC1080.h"
+#include <Panther.h>
 #include "Wire.h"
 #include "wiring_private.h"
-#include "HDC1080JS.h"
-
-extern TwoWire Wire2;
-
+#include <MCP23017.h>
 
 class Panther
 {
   public:
     void begin();
-    void setupMCP();
-    void mcpMode(int pin, int mode);
-    void mcpWrite(int pin, int polarity);
-    int mcpModeB[8] = {0,0,0,0,0,0,0,0};
-    int mcpModeA[8] = {0,0,0,0,0,0,0,0};
-    int mcpB[8] = {0,0,0,0,0,0,0,0};
-    int mcpA[8] = {0,0,0,0,0,0,0,0};
+    void Mode(int pin, int mode);
+    void Write(int pin, int polarity);
     char result_char[2000]; 
     int Check;
     void LED(int LED, int Polarity);
@@ -38,6 +32,9 @@ class Panther
     float bat();
     void selectSerial2(int port);
   private:    
+};
+
+#endif
 };
 
 #endif
